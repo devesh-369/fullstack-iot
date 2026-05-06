@@ -69,6 +69,9 @@ app.get('/api/products', (req, res) => {
 /* AUTH ROUTES */
 app.use('/api/auth', authRoutes);
 
+/* ORDER ROUTES */
+app.use('/api/orders', orderRoutes);
+
 /* PORT */
 const PORT = process.env.PORT || 5000;
 
