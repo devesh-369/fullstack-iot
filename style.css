@@ -262,26 +262,31 @@ body{
   font-size:2rem;
 }
 
-.mobile-nav {
-  position: absolute;
-  top: 80px;
-  left: 0;
-  width: 100%;
-  background: #081229;
+.mobile-nav{
+  position:absolute;
+  top:70px;
+  left:0;
+  width:100%;
+  background:#081229;
 
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+  display:flex;
+  flex-direction:column;
+  gap:18px;
 
-  padding: 20px;
+  padding:20px;
 
-  max-height: calc(100vh - 80px);
-  overflow-y: auto;
-
-  z-index: 999;
+  z-index:999;
 }
-.login-nav-btn {
-  display: block;
+
+.mobile-nav a{
+  display:block;
+  width:100%;
+  color:#fff;
+  text-decoration:none;
+}
+
+.login-nav-btn{
+  display:block;
 }
 
 .hidden{
